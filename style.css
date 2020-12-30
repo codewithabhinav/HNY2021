@@ -102,3 +102,78 @@ section i {
         opacity: 1;
     }
 }
+
+.social img {
+    visibility: hidden;
+}
+
+/* .social img {
+    height: 30px;
+    width: 30px;
+    /* align-self: flex-end; 
+float: center;
+margin: 150px 5px 0px 10px;
+border-radius: 18px;
+background: linear-gradient(145deg, #e6ae06, #ffcf07);
+box-shadow: 4px 4px 8px #d9a406,
+-4px -4px 8px #ffde08;
+}*/
+
+@media screen and (max-width: 425px) {
+    .font {
+        font-family: "Turret Road", cursive;
+        font-size: 25px;
+    }
+
+
+
+    .social img {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        float: right;
+        visibility: visible;
+        margin: 240px 0px 24px 121px;
+        border-radius: 8px;
+        background: linear-gradient(145deg, #e6ae06, #ffcf07);
+        box-shadow: 4px 4px 8px #d9a406,
+            -4px -4px 8px #ffde08;
+        animation: ani 5s ease-in-out infinite;
+    }
+
+    @keyframes ani {
+
+        0% {
+            opacity: 0;
+
+            transform: skewX(-7deg) translate(20px, 50px);
+
+        }
+
+        10% {
+            opacity: 0;
+
+            transform: skewX(-6deg) translate(20p0x, 40px);
+
+        }
+
+        30% {
+            opacity: 0;
+
+            transform: skewX(-5deg) translate(20px, 30px);
+
+        }
+
+        50% {
+            opacity: 0;
+
+            transform: skewX(-4deg) translate(20px, 20px);
+
+        }
+
+        100% {
+            /* opacity: 0; */
+            transform: skewX(-3deg) translate(0, 10px);
+        }
+    }
+}
