@@ -138,10 +138,10 @@ box-shadow: 4px 4px 8px #d9a406,
         background: linear-gradient(145deg, #e6ae06, #ffcf07);
         box-shadow: 4px 4px 8px #d9a406,
             -4px -4px 8px #ffde08;
-        animation: ani 5s ease-in-out infinite;
+        /* animation: ani 5s ease-in-out infinite; */
     }
 
-    @keyframes ani {
+    /* @keyframes ani {
 
         0% {
             opacity: 0;
@@ -172,8 +172,8 @@ box-shadow: 4px 4px 8px #d9a406,
         }
 
         100% {
-            /* opacity: 0; */
+           
             transform: skewX(-3deg) translate(0, 10px);
         }
-    }
+    } */
 }
